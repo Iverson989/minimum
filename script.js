@@ -1,1 +1,6 @@
-function minimum(a, b) {}
+function minimum(a, b) {
+  if (a < b) {
+    return a;
+  }
+  return b;
+}
